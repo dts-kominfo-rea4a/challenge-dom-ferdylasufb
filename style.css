@@ -1,0 +1,47 @@
+body {
+    background-color: #EEEEEE;
+    padding-top: 30px;
+    text-align: center;
+    color: #EEEEEE;
+  }
+
+  #app {
+    margin: auto;
+    width: 25%;
+    margin-top: 10%;
+    background-color: #46bbff;
+    border-radius: 12px;
+    padding: 40px;
+    font-family: Poppins, sans-serif;
+  }
+
+  input {
+    font-size: 20px;
+    color: #6F38C5;
+  }
+
+  input:focus {
+    border: 2px solid #ADDDD0;
+    outline: none
+  }
+
+  button {
+    background-color: #ADDDD0;
+    /* Green */
+    border: none;
+    color: #1d004b;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #todo-output {
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 200%;
+  }
